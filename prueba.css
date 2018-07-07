@@ -1,0 +1,41 @@
+body{
+     background-color: orange;
+}
+input[type="text"], input[type="email"], textarea{
+     border:none;
+     border-bottom: solid 2px #323232;
+     font-size: 1.7rem;
+     max-width: 450px;
+     padding: 5px 0;
+     margin: 5px 0;
+     letter-spacing: 2px;
+     display: block;
+     background-color: orange;
+}
+input::-moz-placeholder, textarea::-moz-placeholder{
+     text-transform: uppercase;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+     outline:none;
+}
+textarea{
+     resize:none;
+     max-height: 150px;
+}
+input[type="submit"]{
+     background: none;
+     border: solid 3px #323232;
+     font-size:2rem;
+     max-width:450px;
+     padding:12px 25px;
+     margin: 5px 0;
+     font-weight: 600;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     color: #323232;
+}
+input[type="submit"]:hover{
+     background-color: #323232;
+     color:orange;
+     transition: all .4s;
+}
